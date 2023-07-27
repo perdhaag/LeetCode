@@ -14,3 +14,8 @@ int[] nums2 = {8, 9, 10};
 
 
 Console.WriteLine($"Median: {Solution.FindMedianSortedArrays(nums1, nums2)}");
+
+
+string[] strs = {"flower","flow","flight"};
+
+Console.WriteLine($"Longest prefix: {Solution.LongestCommonPrefix(strs)}");
